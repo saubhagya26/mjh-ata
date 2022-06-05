@@ -80,6 +80,11 @@ img {
   border: none;
 }
 
+.centering {
+  text-align: center;
+  padding: 10px;
+}
+
 .mu-read-more-btn {
   border: 1px solid #01bafd;
   color: #01bafd;
@@ -813,10 +818,15 @@ img {
   margin-top: 50px;
   width: 100%;
 }
+
+.sizing {
+  width: 300px;
+}
+
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single {
   display: inline;
   float: left;
-  width: 100%;
+  /* width: 100%; */
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single:hover .mu-our-teacher-img .mu-our-teacher-social {
   opacity: 1;
